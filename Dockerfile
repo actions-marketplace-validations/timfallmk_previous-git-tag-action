@@ -6,4 +6,4 @@ ADD previous-tag.sh previous-tag.sh
 
 ENV PREVIOUS_TAG ''
 
-ENTRYPOINT ["previous-tag.sh"]
+ENTRYPOINT ["./previous-tag.sh"]
