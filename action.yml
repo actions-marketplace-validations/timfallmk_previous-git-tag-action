@@ -1,0 +1,10 @@
+name: 'Previous Git Tag'
+description: 'Fetch the Previous Git Tag'
+
+outputs:
+  previous-tag:
+    description: 'The previous tag'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
